@@ -1,0 +1,9 @@
+info: &data
+  name: "hp"
+  phone: "18888888888"
+address:
+  <<: *data
+  detail: "黑马程序员"
+con:
+  <<: *data
+  bir: "2020-1-1"

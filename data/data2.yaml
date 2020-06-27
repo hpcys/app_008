@@ -1,0 +1,55 @@
+# 注释符号
+#name: "hp"
+#Name: "hp"
+# 对象---第一种写法
+#info1: {"name": "hp" ,"age": "18"}  # python字典
+# d对象--第二种写法
+#info2:
+#  name: "hp"
+#  age: "18"
+# ----列表---
+# yaml 数组 -:代表列表
+#data:
+##  - "hp"
+##  - "男"
+##  - "18"
+# python 列表
+#data1: ["name","男","18"]
+## json格式 {'info': [{'name': '张三'}, {'name': '李四'}]}
+#info:
+#  - name: "张三"
+#  - name: "李四"
+# ----字符串---
+#name: "hp"
+#Name: "hp"
+#name_str: hp  # 自动转化数据类型
+# ----整数  浮点数
+#int_value: 122
+#float_value: 12.0001
+# ------布尔值----
+# yaml布尔值
+#bool01: true
+#boll02: false
+#bool03: True
+#bool04: False
+# -----空类型----
+# yaml表示
+#value1: ~
+# python类型---不支持 返回字符串
+#value2: None
+#value3: none
+# 没有赋值  支持
+#value4:
+# 支持 js shell java
+#value5: Null
+#value6: null
+# ---日期类型---
+# 返回 datetime.datetime时间类型
+date1: 2020-11-11 11:11:11
+# 返回datetime.data 类型
+date2: 2020-11-11
+# 返回int类型，建议使用时分秒，应以字符串形式传递
+date3: 11:11:11
+# 不会返回日期类型会返回字符串，所以补o
+date4: 2020-11-11 01:01:01
+date5: 2020-01-01
